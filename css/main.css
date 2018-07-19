@@ -1,0 +1,131 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+h1,h2,h3,h4,h5{
+    margin: 0;
+}
+.center{
+    text-align: center;
+}
+.wrap{
+    background: linear-gradient(to top left, #4b39ef, #f8ce51);
+    background: -webkit-linear-gradient(to top left, #4b39ef, #f8ce51);
+    background: -moz-linear-gradient(to top left, #4b39ef, #f8ce51);
+    background: -o-linear-gradient(to top left, #4b39ef, #f8ce51);
+    background: -ms-linear-gradient(to top left, #4b39ef, #f8ce51);
+    background: linear-gradient(to top left, #4b39ef, #f8ce51);
+    height: 100%;
+}
+.mark{
+    color: #fff;
+    background-color: #509250;
+}
+.results{
+    height: 100%;
+    width: 220px;
+    border-right: 5px solid rgba(255,255,255,0.3);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.results-block{
+    font-size: 20px;
+}
+.results-block div{
+    padding: 5px 7px;
+    position: relative;
+    -webkit-transition: all ease-in-out 0.1s;
+    -moz-transition: all ease-in-out 0.1s;
+    -o-transition: all ease-in-out 0.1s;
+    transition: all ease-in-out 0.1s;
+}
+.block {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.block-timer {
+    background-color: rgba(255,255,255,0.2);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    min-width: 30%;
+    padding: 30px 55px 37px;
+    box-sizing: border-box;
+}
+.block-timer h1 {
+    color: #efefef;
+}
+.block-control{
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    width: 100%;
+    display: inline-flex;
+}
+.block-control button{
+    width: 50%;
+    background-color: rgba(255,255,255,0.3);
+    padding: 10px;
+    outline: none;
+    border: none;
+    -webkit-transition: all ease-in-out 0.1s;
+    -moz-transition: all ease-in-out 0.1s;
+    -o-transition: all ease-in-out 0.1s;
+    transition: all ease-in-out 0.1s;
+}
+.block-control button:hover{
+    background-color: rgba(255,255,255,0.7);
+}
+.remove-result{
+    background-color: rgba(255,255,255,0.3);
+    outline: none;
+    border: none;
+    position: absolute;
+    right: 5px;
+    padding: 5px 10px;
+    -webkit-transition: all ease-in-out 0.1s;
+    -moz-transition: all ease-in-out 0.1s;
+    -o-transition: all ease-in-out 0.1s;
+    transition: all ease-in-out 0.1s;
+}
+.remove-result:hover{
+    background-color: darkred;
+    color: #fff;
+}
+
+.time{
+    font-size: 65px;
+    font-weight: bold;
+}
+.time span{
+    display: inline-block;
+}
+.min, .sec{
+    width: 70px;
+}
+.m_sec{
+    width: 100px;
+}
+
+.action{
+    font-weight: bold;
+}
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.default{
+    color: gray;
+}
