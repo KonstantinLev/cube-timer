@@ -13,11 +13,16 @@
     <div class="wrap">
 
         <div class="results">
+            <h3 class="center">Статистика:</h3>
+            <div class="statistics">
+                ср. время на сборку: <b class="average"></b>
+            </div>
             <h3 class="center">Результаты:</h3>
             <div class="results-block"></div>
         </div>
 
         <div class="block">
+
             <div class="block-timer">
                 <h1>Rubik's Timer! - <span class="action default"></span></h1>
                 <div class="time">

@@ -29,6 +29,9 @@ h1,h2,h3,h4,h5{
     overflow-x: hidden;
     overflow-y: auto;
 }
+.results-block, .statistics{
+    margin: 7px 0;
+}
 .results-block{
     font-size: 20px;
 }
@@ -41,7 +44,6 @@ h1,h2,h3,h4,h5{
     transition: all ease-in-out 0.1s;
 }
 .block {
-    position: relative;
     width: 100%;
     text-align: center;
 }
@@ -128,4 +130,7 @@ h1,h2,h3,h4,h5{
 
 .default{
     color: gray;
+}
+.statistics{
+    padding: 0 0 0 7px;
 }

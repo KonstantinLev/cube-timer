@@ -137,6 +137,23 @@ function getResults()
         text += '</div>';
     });
     resultBlock.html(text);
+    getStatistics();
+}
+
+function getStatistics()
+{
+    var results = getLS();
+    if(results.length > 0){
+        var sum = 0;
+        results.forEach(function(e){
+            sum += e.time;
+        });
+        var average = sum / results.length / 1000;
+        $('.average').text(average.toFixed(3));
+    } else{
+        $('.average').text('0');
+    }
+
 }
 
 function getLS()
